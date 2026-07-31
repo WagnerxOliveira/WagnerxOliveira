@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: athul/wakatime-readme@master
+      - name: Wakatime Readme
+        uses: anmol0998/wakatime-readme-stats@master
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
