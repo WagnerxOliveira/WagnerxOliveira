@@ -74,7 +74,7 @@
       </p>
       <!-- SUBSTITUA O LINK ABAIXO POR UM GIF DO SEU PROJETO RODANDO -->
       <p align="center">
-        <img src="https://via.placeholder.com/400x200/161B22/00FFD1?text=Insira+GIF+Demo+Aqui" alt="GIF Demo Secret Word" width="100%" style="border-radius: 8px;" />
+        <img src="https://github.com/user-attachments/assets/fe9c4a0c-89da-4738-a5fe-86868404caae" alt="GIF Demo Secret Word" width="100%" style="border-radius: 8px;" />
       </p>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
