@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   wakatime-github-metrics:
@@ -17,25 +20,38 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # ==========================================
+          # CONFIGURAÇÕES DE DESIGN (O SEGREDO DA BELEZA)
+          # ==========================================
           template: classic
-          theme: tokyonight
+          theme: radical # Muda para um tema escuro absoluto com acentos em neon/rosa/azul
           config_timezone: America/Sao_Paulo
           filename: cyberpunk-dashboard.svg
           committer_branch: main
+          
+          # Base limpa, sem poluição
           base: header, activity, metadata
           
-          # Linguagens
+          # ==========================================
+          # PLUGINS ATIVOS
+          # ==========================================
+          # 1. Linguagens (Com porcentagens exatas)
           plugin_languages: yes
           plugin_languages_indepth: no
-          plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
 
-          # WakaTime (Integrado - Não precisa de YAML separado)
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, languages, languages-graphs, editors
-          plugin_wakatime_limit: 5
+          # ==========================================
+          # PLUGINS DESATIVADOS TEMPORARIAMENTE
+          # ==========================================
+          # O WakaTime foi comentado (desativado) para não mostrar "0 horas".
+          # Quando sua API estiver puxando dados reais, basta remover os "#" abaixo.
+          
+          # plugin_wakatime: yes
+          # plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          # plugin_wakatime_days: 7
+          # plugin_wakatime_sections: time, languages, languages-graphs, editors
+          # plugin_wakatime_limit: 5
