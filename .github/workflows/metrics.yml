@@ -1,0 +1,56 @@
+name: WakaTime & GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  workflow_dispatch: 
+  push:
+    branches: ["main"]
+
+jobs:
+  wakatime-github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: WakaTime and GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Segredos
+          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+
+          # Configurações Visuais Cyberpunk
+          theme: synthwave
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          config_order: github_stats, streak_stats, top_languages, wakatime
+          config_display: large
+
+          # Performance
+          optimize: yes
+          experimental_features: yes
+          debug: no
+          retries: 3
+          cache_expire: 3600
+
+          # Ativando os Gráficos 
+          plugin_github_stats: yes
+          plugin_github_stats_locale: pt
+          plugin_github_stats_graphs: yes
+
+          plugin_top_languages: yes
+          plugin_top_languages_graphs: yes
+          
+          plugin_wakatime: yes
+          plugin_wakatime_graphs: yes
+          plugin_wakatime_graphs_type: donut
+          plugin_wakatime_limit: 5
+          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, languages, editors
+
+          # Salvando a imagem no lugar correto
+          filename: cyberpunk-dashboard.svg
+          committer_branch: output
