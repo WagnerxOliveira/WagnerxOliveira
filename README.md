@@ -54,7 +54,7 @@
       </p>
       <!-- SUBSTITUA O LINK ABAIXO POR UM GIF DO SEU PROJETO RODANDO -->
       <p align="center">
-        <img src="https://via.placeholder.com/400x200/161B22/00FFD1?text=Insira+GIF+Demo+Aqui" alt="GIF Demo Yu-Gi-Oh" width="100%" style="border-radius: 8px;" />
+        <img src="https://github.com/user-attachments/assets/9b46484b-95a1-4561-8bc6-313a10715c88" alt="GIF Demo Yu-Gi-Oh" width="100%" style="border-radius: 8px;" />
       </p>
       <p>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
