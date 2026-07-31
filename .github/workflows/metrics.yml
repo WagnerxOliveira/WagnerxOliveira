@@ -7,7 +7,7 @@ on:
 
 jobs:
   # ---------------------------------------------------------
-  # JOB 1: O Dashboard Base
+  # JOB 1: Dashboard Base + Linguagens Detalhadas
   # ---------------------------------------------------------
   wakatime-github-metrics:
     runs-on: ubuntu-latest
@@ -24,13 +24,29 @@ jobs:
           theme: tokyonight
           config_timezone: America/Sao_Paulo
           filename: cyberpunk-dashboard.svg
-          committer_branch: output
+          committer_branch: main # MUDANÇA CRÍTICA: Salvando direto na main para o README achar fácil
           base: header, activity, metadata
+          
+          # 1. Linguagens com Porcentagem (O que você pediu!)
+          plugin_languages: yes
+          plugin_languages_indepth: no # Sem deep scan para não dar timeout
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_details: bytes-size, percentage # Mostra a porcentagem
+
+          # 2. WakaTime
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
           plugin_wakatime_sections: time, languages, languages-graphs, editors
           plugin_wakatime_limit: 5
+
+          # 3. Hábitos
           plugin_habits: yes
           plugin_habits_charts_type: chartist
           plugin_habits_days: 14
@@ -38,7 +54,7 @@ jobs:
           plugin_habits_from: 200
 
   # ---------------------------------------------------------
-  # JOB 2: Gráfico 3D Avançado
+  # JOB 2: Gráfico 3D (Cidade Isométrica)
   # ---------------------------------------------------------
   generate-3d-contrib:
     runs-on: ubuntu-latest
@@ -47,7 +63,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Generate 3D Contribution Graph (Radar & Donut)
+        with:
+          ref: main
+      - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +80,7 @@ jobs:
           git push
 
   # ---------------------------------------------------------
-  # JOB 3: Cards de Resumo (O FIX ESTÁ AQUI)
+  # JOB 3: Cards de Resumo (Estilo vn7)
   # ---------------------------------------------------------
   generate-summary-cards:
     runs-on: ubuntu-latest
@@ -72,7 +90,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main # A MÁGICA: Garante que baixa as atualizações feitas pelo Job 2 antes de rodar
+          ref: main
       - name: Generate Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
