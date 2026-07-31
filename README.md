@@ -25,38 +25,31 @@
 
 <br/>
 
+<!-- ========================================== -->
+<!-- NOVO PAINEL DE CONTROLE UNIFICADO (SVG)    -->
+<!-- ========================================== -->
 <h2 align="center">📊 Análise de Perfil e Contribuições</h2>
 
 <div align="center">
-  <!-- Painel Esquerdo: Estatísticas principais otimizadas para carregamento instantâneo -->
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=synthwave&locale=pt-br&hide_border=true" alt="Estatísticas do GitHub" />
-  
-  <!-- Painel Direito: Streak Stats (Mostra a constância e gamifica o perfil) -->
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=WagnerxOliveira&theme=synthwave&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
+  <!-- A imagem única gerada pela sua Action -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg" alt="Cyberpunk GitHub Dashboard" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <!-- Painel Inferior: Linguagens centralizadas complementando o design -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=synthwave&locale=pt-br&hide_border=true&v=estavel" alt="Top Linguagens" />
+  <p><em>Atualizado em tempo real via GitHub Actions.</em></p>
 </div>
 
 <br/>
+<!-- ========================================== -->
 
-<h2 align="center">⏱️ Análise em Tempo Real (WakaTime)</h2>
-<div align="center">
-  <img src="wakatime.svg" alt="WakaTime Dashboard" />
-</div>
-
-<br/>
-
-<!-- Área da Animação da Cobrinha Cyberpunk -->
+<!-- Área da Animação da Cobrinha -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake Cyberpunk" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
@@ -70,7 +63,7 @@
       <h3>🃏 <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Yu-Gi-Oh! Forbidden Memories — Card Database</a></h3>
       <p>
         <b>Uma enciclopédia digital completa e interativa para o clássico jogo de PS1.</b><br>
-        Reúne todas as 722 cartas do jogo com um design <em>Glassmorphism</em> premium, buscas instantâneas, filtros dinâmicos e painel holográfico de drops.
+        Reúne todas as 722 cartas do jogo com um design <em>Glassmorphism</em> premium, buscas instantâneas, filtros dinâmicos e painel holográfico de drops (com quem dropa, chances e equipamentos).
       </p>
       <ul>
         <li>🔗 <b>Acesse Online:</b> <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Demo no Vercel</a></li>
@@ -82,7 +75,7 @@
       <h3>🔤 <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Secret Word Game</a></h3>
       <p>
         <b>Um jogo imersivo e reativo de adivinhação de palavras.</b><br>
-        Construído com React, testa seu raciocínio e vocabulário. Possui gerenciamento de estado dinâmico e interface que reage em tempo real às suas tentativas.
+        Construído com React, testa seu raciocínio e vocabulário. Possui gerenciamento de estado dinâmico e interface que reage em tempo real às suas tentativas. Palavras geradas de forma dinâmica.
       </p>
       <ul>
         <li>🔗 <b>Acesse Online:</b> <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Demo no Vercel</a></li>
