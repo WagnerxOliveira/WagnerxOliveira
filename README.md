@@ -25,7 +25,7 @@
 
 <h2 align="center">🚀 Stack Tecnológico</h2>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,mysql,git,vscode,linux&perline=10" alt="Minhas Habilidades" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,mysql,git&perline=10" alt="Minhas Habilidades" />
 </div>
 
 <br/>
