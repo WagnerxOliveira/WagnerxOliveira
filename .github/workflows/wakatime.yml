@@ -16,7 +16,9 @@ jobs:
           filename: wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
+          theme: synthwave
+          config_timezone: America/Sao_Paulo
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, languages
+          plugin_wakatime_sections: time, languages-graphs, editors
