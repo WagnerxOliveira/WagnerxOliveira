@@ -76,28 +76,30 @@
 <!-- 1. Cards de Resumo (Linguagens e Commits - Referência: vn7) -->
 <div align="center">
   <h3>⚡ Visão Geral do Repositório</h3>
-  <img src="profile-summary-cards-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%" />
+  <!-- Caminhos Corrigidos: Apontando direto para a raiz gerada pela action -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-cards-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%" />
   <br/><br/>
-  <img src="profile-summary-cards-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="49%" />
-  <img src="profile-summary-cards-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%" />
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-cards-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="49%" />
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-cards-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%" />
 </div>
 
 <br/>
 
-<!-- 2. Gráfico 3D -->
+<!-- 2. O Gráfico 3D -->
 <div align="center">
   <h3>🌌 Contribuições 3D & Radar de Produtividade</h3>
   <picture>
-    <img alt="GitHub 3D Contributions" src="profile-3d-contrib/profile-night-view.svg" style="max-width: 100%;">
+    <img alt="GitHub 3D Contributions" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-3d-contrib/profile-night-view.svg" style="max-width: 100%;">
   </picture>
 </div>
 
 <br/>
 
-<!-- 3. WakaTime & Hábitos de Código (Seu Dashboard Cyberpunk) -->
+<!-- 3. WakaTime & Hábitos de Código (COM PORCENTAGENS DE LINGUAGEM) -->
 <div align="center">
-  <h3>🕒 Hábitos & WakaTime Real-Time</h3>
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
+  <h3>🕒 Hábitos, Linguagens & WakaTime Real-Time</h3>
+  <!-- Caminho Corrigido: Mudamos para salvar na main no novo YAML -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
 </div>
 
 <br/>
