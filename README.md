@@ -94,12 +94,13 @@
 <h2 align="center">📊 Analytics & Atividade CI/CD</h2>
 
 <div align="center">
-  <!-- 1. Foco Principal: Métricas, Hard Skills e Atividade -->
+  <!-- 1. Foco Principal: Métricas e Hard Skills -->
   <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; border-radius: 8px;" />
   
-  <br/><br/>
+  <br/><br/><br/>
   
-  <!-- 2. Prova de Consistência: Snake Animation ocupando a largura ideal -->
+  <!-- 2. Prova de Consistência: Snake Animation -->
+  <h3>🟩 Consistência & Histórico de Commits</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
