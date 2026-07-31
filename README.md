@@ -2,11 +2,19 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Olá,%20eu%20sou%20o%20Wagner%20Oliveira!&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20de%20Software%20%7C%20Transformando%20ideias%20em%20código&descAlignY=55&descAlign=50" alt="Header Banner" />
 </div>
 
-<h2 align="center">👨‍💻 Sobre Mim</h2>
+<br/>
 
-<p align="center">
-  Sou um desenvolvedor apaixonado por tecnologia, com foco em criar interfaces interativas, responsivas e de alta performance. Tenho dedicação à construção de sistemas eficientes, combinando lógica sólida com um design moderno e impecável.
-</p>
+<div align="center">
+  <h2>👨‍💻 Sobre Mim & Objetivos</h2>
+  <p>
+    Sou um desenvolvedor apaixonado por tecnologia, focado em criar interfaces modernas, reativas e de alta performance. 
+    Tenho facilidade para aprender novas ferramentas e traduzir regras de negócios complexas em um código limpo e organizado.
+  </p>
+  <blockquote>
+    🎯 <strong>Atualmente em busca de uma oportunidade de Estágio em Desenvolvimento FullStack.</strong><br>
+    Meu objetivo é integrar uma equipe dinâmica onde eu possa agregar valor imediato, resolver problemas reais e evoluir tecnicamente, colaborando para a construção de sistemas eficientes e escaláveis.
+  </blockquote>
+</div>
 
 <br/>
 
@@ -17,12 +25,24 @@
 
 <br/>
 
-<h2 align="center">📊 Minhas Estatísticas no GitHub</h2>
+<h2 align="center">📊 Minhas Estatísticas e Contribuições</h2>
 <div align="center">
+  <!-- Imagens corrigidas sem a unidade "em" que causava a quebra -->
   <a href="https://github.com/WagnerxOliveira" target="_blank">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula" alt="Top Linguagens" />
+    <img height="195" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br" alt="Estatísticas do GitHub de Wagner Oliveira" />
+    <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula&locale=pt-br" alt="Top Linguagens de Wagner Oliveira" />
   </a>
+</div>
+
+<br/>
+
+<!-- Área da Animação da Cobrinha -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <br/>
@@ -60,7 +80,7 @@
 
 <br/>
 
-<h2 align="center">📫 Como me encontrar</h2>
+<h2 align="center">📫 Vamos conversar?</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/wagner-oliveira-8711083a8/" target="_blank">
