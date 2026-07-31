@@ -25,34 +25,6 @@
 
 <br/>
 
-<!-- ========================================== -->
-<!-- NOVO PAINEL DE CONTROLE CYBERPUNK (SVG)    -->
-<!-- ========================================== -->
-<h3 align="center">📊 Análise de Perfil e Contribuições</h3>
-
-<div align="center">
-  <!-- O "?v=turbo" no final FORÇA o GitHub a atualizar a imagem na sua tela -->
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
-</div>
-
-<div align="center">
-  <p><em>Atualizado em tempo real via GitHub Actions.</em></p>
-</div>
-
-<br/>
-<!-- ========================================== -->
-
-<!-- Área da Animação da Cobrinha -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<br/>
-
 <h2 align="center">🏆 Projetos em Destaque</h2>
 
 <table align="center" width="100%">
@@ -83,6 +55,34 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+<!-- ========================================== -->
+<!-- NOVO PAINEL DE CONTROLE CYBERPUNK (SVG)    -->
+<!-- ========================================== -->
+<h3 align="center">📊 Análise de Perfil e Contribuições</h3>
+
+<div align="center">
+  <!-- O "?v=turbo" no final FORÇA o GitHub a atualizar a imagem na sua tela -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
+</div>
+
+<div align="center">
+  <p><em>Atualizado em tempo real via GitHub Actions.</em></p>
+</div>
+
+<br/>
+<!-- ========================================== -->
+
+<!-- Área da Animação da Cobrinha -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 <br/>
 
