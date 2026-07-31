@@ -1,4 +1,4 @@
-name: Update WakaTime Stats
+name: WakaTime Metrics
 
 on:
   workflow_dispatch:
@@ -6,12 +6,17 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  update-readme:
-    name: Update README with WakaTime stats
+  metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Wakatime Readme
-        uses: anmol0998/wakatime-readme-stats@master
-        env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: wakatime.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, languages
