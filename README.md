@@ -36,9 +36,9 @@
 <br/>
 
 <h2 align="center">⏱️ Tempo de Código e Produtividade (WakaTime)</h2>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=WagnerxOliveira&theme=dracula&layout=compact&hide_border=true&langs_count=6" alt="Estatísticas do WakaTime de Wagner Oliveira" />
-</div>
+
+<!--START_SECTION:wakatime-->
+<!--END_SECTION:wakatime-->
 
 <br/>
 
