@@ -18,8 +18,10 @@ jobs:
       - name: Generate Cyberpunk Dashboard
         uses: lowlighter/metrics@latest
         with:
-          # AQUI ESTÁ A MÁGICA: Usando o seu token pessoal que pode ver todos os repositórios
+          # Token para LER seus dados
           token: ${{ secrets.METRICS_TOKEN }}
+          # Token nativo para SALVAR o arquivo gerado (Resolve o erro do SHA)
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           
           # Configurações visuais do Dashboard
           template: classic
@@ -28,15 +30,14 @@ jobs:
           filename: cyberpunk-dashboard.svg
           committer_branch: output
           
-          # Base do GitHub (Necessário para ancorar dados, removemos o base: "" que quebrava o SVG)
+          # Base do GitHub (Sem indepth para não travar por 12 minutos)
           base: header, activity, community, repositories, metadata
-          base_indepth: yes
 
           # 1. Gráfico Isométrico 3D (A Cidade de Código)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # 2. Linguagens Futuristas (Donut Chart)
+          # 2. Linguagens Futuristas 
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -46,7 +47,6 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_indepth: yes
 
           # 3. Hábitos (Matriz Cyberpunk)
           plugin_habits: yes
