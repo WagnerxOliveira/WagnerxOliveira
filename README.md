@@ -26,16 +26,14 @@
 <br/>
 
 <!-- ========================================== -->
-<!-- NOVO PAINEL DE CONTROLE UNIFICADO (SVG)    -->
+<!-- NOVO PAINEL DE CONTROLE CYBERPUNK (SVG)    -->
 <!-- ========================================== -->
-<h2 align="center">📊 Análise de Perfil e Contribuições</h2>
+<h3 align="center">📊 Análise de Perfil e Contribuições</h3>
 
 <div align="center">
-  <!-- A imagem única gerada pela sua Action -->
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg" alt="Cyberpunk GitHub Dashboard" width="100%" />
+  <!-- A imagem agora é responsiva e se adapta ao tamanho da tela -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
 </div>
-
-<br/>
 
 <div align="center">
   <p><em>Atualizado em tempo real via GitHub Actions.</em></p>
