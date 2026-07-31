@@ -28,15 +28,16 @@
 <h2 align="center">📊 Minhas Estatísticas e Contribuições</h2>
 
 <div align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true&v=2" alt="Estatísticas do GitHub de Wagner Oliveira" />
-  <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula&locale=pt-br&hide_border=true&v=2" alt="Top Linguagens de Wagner Oliveira" />
+  <img src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas do GitHub de Wagner Oliveira" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula&locale=pt-br&hide_border=true" alt="Top Linguagens de Wagner Oliveira" />
 </div>
 
 <br/>
 
 <h2 align="center">⏱️ Tempo de Código e Produtividade (WakaTime)</h2>
 <div align="center">
-  <img height="195" src="https://github-readme-stats.vercel.app/api/wakatime?username=WagnerxOliveira&theme=dracula&layout=compact&hide_border=true&langs_count=6&v=2" alt="Estatísticas do WakaTime de Wagner Oliveira" />
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=WagnerxOliveira&theme=dracula&layout=compact&hide_border=true&langs_count=6" alt="Estatísticas do WakaTime de Wagner Oliveira" />
 </div>
 
 <br/>
