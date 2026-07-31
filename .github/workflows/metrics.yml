@@ -1,63 +1,85 @@
-name: WakaTime & GitHub Metrics Cyberpunk
+name: Cyberpunk Profile Engine (Metrics, 3D & Cards)
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Atualiza todo dia à meia-noite
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: ["main"]
 
 jobs:
+  # ---------------------------------------------------------
+  # JOB 1: O Dashboard Base (Focado em WakaTime e Hábitos)
+  # ---------------------------------------------------------
   wakatime-github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
       - name: Generate Cyberpunk Dashboard
         uses: lowlighter/metrics@latest
         with:
-          # Token para LER seus dados
           token: ${{ secrets.METRICS_TOKEN }}
-          # Token nativo para SALVAR o arquivo gerado (Resolve o erro do SHA)
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Configurações visuais do Dashboard
           template: classic
           theme: tokyonight
           config_timezone: America/Sao_Paulo
           filename: cyberpunk-dashboard.svg
           committer_branch: output
+          base: header, activity, metadata
           
-          # Base do GitHub (Sem indepth para não travar por 12 minutos)
-          base: header, activity, community, repositories, metadata
+          # Integração Exclusiva WakaTime (Mostra os tempos reais de código)
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+          plugin_wakatime_days: 7
+          plugin_wakatime_sections: time, languages, languages-graphs, editors
+          plugin_wakatime_limit: 5
 
-          # 1. Gráfico Isométrico 3D (A Cidade de Código)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # 2. Linguagens Futuristas 
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_details: bytes-size, percentage
-
-          # 3. Hábitos (Matriz Cyberpunk)
+          # Matriz de Hábitos de Código
           plugin_habits: yes
           plugin_habits_charts_type: chartist
           plugin_habits_days: 14
           plugin_habits_facts: no
           plugin_habits_from: 200
 
-          # 4. Integração WakaTime
-          plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
-          plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs
-          plugin_wakatime_limit: 4
+  # ---------------------------------------------------------
+  # JOB 2: Gráfico 3D Avançado (Referência da imagem 2.png)
+  # ---------------------------------------------------------
+  generate-3d-contrib:
+    runs-on: ubuntu-latest
+    needs: wakatime-github-metrics # Só roda após o Job 1 terminar
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate 3D Contribution Graph (Radar & Donut)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push 3D Graphs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "Auto-generated 3D contrib graphs" || echo "No changes to commit"
+          git push
+
+  # ---------------------------------------------------------
+  # JOB 3: Cards de Resumo (Referência da imagem vn7)
+  # ---------------------------------------------------------
+  generate-summary-cards:
+    runs-on: ubuntu-latest
+    needs: generate-3d-contrib # Só roda após o Job 2 terminar
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: tokyonight # Mantém a estética Cyberpunk/Escura
