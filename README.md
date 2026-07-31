@@ -28,28 +28,26 @@
 <h2 align="center">📊 Minhas Estatísticas e Contribuições</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas do GitHub de Wagner Oliveira" />
+  <img src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true&v=cyberpunk1" alt="Estatísticas do GitHub" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula&locale=pt-br&hide_border=true" alt="Top Linguagens de Wagner Oliveira" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=synthwave&locale=pt-br&hide_border=true&v=cyberpunk1" alt="Top Linguagens" />
 </div>
 
 <br/>
 
-<h2 align="center">⏱️ Tempo de Código e Produtividade (WakaTime)</h2>
+<h2 align="center">⏱️ Análise em Tempo Real (WakaTime)</h2>
 <div align="center">
-  <img src="wakatime.svg" alt="WakaTime Stats" />
+  <img src="wakatime.svg" alt="WakaTime Dashboard" />
 </div>
 
 <br/>
 
-<br/>
-
-<!-- Área da Animação da Cobrinha -->
+<!-- Área da Animação da Cobrinha Cyberpunk -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake Cyberpunk" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
 
@@ -63,7 +61,7 @@
       <h3>🃏 <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Yu-Gi-Oh! Forbidden Memories — Card Database</a></h3>
       <p>
         <b>Uma enciclopédia digital completa e interativa para o clássico jogo de PS1.</b><br>
-        Reúne todas as 722 cartas do jogo com um design <em>Glassmorphism</em> premium, buscas instantâneas, filtros dinâmicos e painel holográfico de drops (com quem dropa, chances e equipamentos).
+        Reúne todas as 722 cartas do jogo com um design <em>Glassmorphism</em> premium, buscas instantâneas, filtros dinâmicos e painel holográfico de drops.
       </p>
       <ul>
         <li>🔗 <b>Acesse Online:</b> <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Demo no Vercel</a></li>
@@ -75,7 +73,7 @@
       <h3>🔤 <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Secret Word Game</a></h3>
       <p>
         <b>Um jogo imersivo e reativo de adivinhação de palavras.</b><br>
-        Construído com React, testa seu raciocínio e vocabulário. Possui gerenciamento de estado dinâmico e interface que reage em tempo real às suas tentativas. Palavras geradas de forma dinâmica.
+        Construído com React, testa seu raciocínio e vocabulário. Possui gerenciamento de estado dinâmico e interface que reage em tempo real às suas tentativas.
       </p>
       <ul>
         <li>🔗 <b>Acesse Online:</b> <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Demo no Vercel</a></li>
