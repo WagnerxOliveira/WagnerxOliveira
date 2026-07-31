@@ -1,4 +1,4 @@
-name: Cyberpunk Profile Engine (Metrics, 3D & Cards)
+name: Cyberpunk Profile Engine (Metrics)
 
 on:
   schedule:
@@ -6,9 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # ---------------------------------------------------------
-  # JOB 1: Dashboard Base + Linguagens Detalhadas
-  # ---------------------------------------------------------
   wakatime-github-metrics:
     runs-on: ubuntu-latest
     permissions:
@@ -24,77 +21,21 @@ jobs:
           theme: tokyonight
           config_timezone: America/Sao_Paulo
           filename: cyberpunk-dashboard.svg
-          committer_branch: main # MUDANÇA CRÍTICA: Salvando direto na main para o README achar fácil
+          committer_branch: main
           base: header, activity, metadata
           
-          # 1. Linguagens com Porcentagem (O que você pediu!)
+          # Linguagens
           plugin_languages: yes
-          plugin_languages_indepth: no # Sem deep scan para não dar timeout
+          plugin_languages_indepth: no
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_details: bytes-size, percentage # Mostra a porcentagem
+          plugin_languages_details: bytes-size, percentage
 
-          # 2. WakaTime
+          # WakaTime (Integrado - Não precisa de YAML separado)
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
           plugin_wakatime_sections: time, languages, languages-graphs, editors
           plugin_wakatime_limit: 5
-
-          # 3. Hábitos
-          plugin_habits: yes
-          plugin_habits_charts_type: chartist
-          plugin_habits_days: 14
-          plugin_habits_facts: no
-          plugin_habits_from: 200
-
-  # ---------------------------------------------------------
-  # JOB 2: Gráfico 3D (Cidade Isométrica)
-  # ---------------------------------------------------------
-  generate-3d-contrib:
-    runs-on: ubuntu-latest
-    needs: wakatime-github-metrics
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push 3D Graphs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A .
-          git commit -m "Auto-generated 3D contrib graphs" || echo "No changes to commit"
-          git pull --rebase origin main
-          git push
-
-  # ---------------------------------------------------------
-  # JOB 3: Cards de Resumo (Estilo vn7)
-  # ---------------------------------------------------------
-  generate-summary-cards:
-    runs-on: ubuntu-latest
-    needs: generate-3d-contrib
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Generate Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          THEME: tokyonight
