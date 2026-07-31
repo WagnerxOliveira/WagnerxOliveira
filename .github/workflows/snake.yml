@@ -1,17 +1,13 @@
 name: generate animation
 
 on:
-  # Roda automaticamente a cada 24 horas
   schedule:
     - cron: "0 */24 * * *" 
-  # Permite rodar manualmente
   workflow_dispatch:
-  # Roda a cada push na branch main
   push:
     branches:
     - main
 
-# Permissão explícita de escrita para o GitHub Actions
 permissions:
   contents: write
 
@@ -21,18 +17,16 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Gera a animação a partir dos seus commits
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00FFD1&color_dots=#161B22,#310657,#6C0AA6,#C300FF,#FF00E4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # Joga a animação gerada para uma branch separada chamada "output"
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
