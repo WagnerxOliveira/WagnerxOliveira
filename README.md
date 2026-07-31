@@ -1,16 +1,80 @@
-## Hi there 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Olá,%20eu%20sou%20o%20Wagner%20Oliveira!&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Desenvolvedor%20de%20Software%20%7C%20Transformando%20ideias%20em%20código&descAlignY=55&descAlign=50" alt="Header Banner" />
+</div>
 
-<!--
-**WagnerxOliveira/WagnerxOliveira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h2 align="center">👨‍💻 Sobre Mim</h2>
 
-Here are some ideas to get you started:
+<p align="center">
+  Sou um desenvolvedor apaixonado por tecnologia, com foco em criar interfaces interativas, responsivas e de alta performance. Tenho dedicação à construção de sistemas eficientes, combinando lógica sólida com um design moderno e impecável.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<h2 align="center">🚀 Tecnologias e Ferramentas</h2>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css,python,react,mysql&perline=6" alt="Minhas Habilidades" />
+</div>
+
+<br/>
+
+<h2 align="center">📊 Minhas Estatísticas no GitHub</h2>
+<div align="center">
+  <a href="https://github.com/WagnerxOliveira" target="_blank">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula" alt="Top Linguagens" />
+  </a>
+</div>
+
+<br/>
+
+<h2 align="center">🏆 Projetos em Destaque</h2>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🃏 <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Yu-Gi-Oh! Forbidden Memories — Card Database</a></h3>
+      <p>
+        <b>Uma enciclopédia digital completa e interativa para o clássico jogo de PS1.</b><br>
+        Reúne todas as 722 cartas do jogo com um design <em>Glassmorphism</em> premium, buscas instantâneas, filtros dinâmicos e painel holográfico de drops (com quem dropa, chances e equipamentos).
+      </p>
+      <ul>
+        <li>🔗 <b>Acesse Online:</b> <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Demo no Vercel</a></li>
+        <li>📁 <b>Repositório:</b> <a href="https://github.com/WagnerxOliveira/projeto-yu-gi-oh-forbidden-memories" target="_blank">Código no GitHub</a></li>
+        <li>🛠️ <b>Tecnologias:</b> HTML5, CSS3, Vanilla JavaScript.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔤 <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Secret Word Game</a></h3>
+      <p>
+        <b>Um jogo imersivo e reativo de adivinhação de palavras.</b><br>
+        Construído com React, testa seu raciocínio e vocabulário. Possui gerenciamento de estado dinâmico e interface que reage em tempo real às suas tentativas. Palavras geradas de forma dinâmica.
+      </p>
+      <ul>
+        <li>🔗 <b>Acesse Online:</b> <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Demo no Vercel</a></li>
+        <li>📁 <b>Repositório:</b> <a href="https://github.com/WagnerxOliveira/secret_word" target="_blank">Código no GitHub</a></li>
+        <li>🛠️ <b>Tecnologias:</b> React (Hooks, Componentes), CSS Modules.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<h2 align="center">📫 Como me encontrar</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/wagner-oliveira-8711083a8/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://wa.me/5535997202824" target="_blank">
+    <img src="https://img.shields.io/badge/-WhatsApp-%2325D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  <a href="mailto:wagneroliveira2395@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+<div align="center">
+  <em>⭐️ Desenvolvido com muita dedicação por <b>Wagner Oliveira</b></em>
+</div>
