@@ -17,40 +17,36 @@ jobs:
       - name: WakaTime and GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Segredos
           token: ${{ secrets.GITHUB_TOKEN }}
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
 
-          # Configurações Visuais Cyberpunk
-          theme: synthwave
+          # Tema escuro com alto contraste e sem as listas de texto padrão
+          theme: tokyonight
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header
           config_timezone: America/Sao_Paulo
-          config_order: github_stats, streak_stats, top_languages, wakatime
-          config_display: large
 
-          # Performance
-          optimize: yes
-          experimental_features: yes
-          debug: no
-          retries: 3
-          cache_expire: 3600
+          # 1. Gráfico 3D Isométrico de Contribuições (Estilo Cyber-City)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
-          # Ativando os Gráficos 
-          plugin_github_stats: yes
-          plugin_github_stats_locale: pt
-          plugin_github_stats_graphs: yes
+          # 2. Gráfico de Rosca (Donut) para Linguagens
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 5
+          plugin_languages_indepth: yes
 
-          plugin_top_languages: yes
-          plugin_top_languages_graphs: yes
-          
+          # 3. Gráfico de Barras de Hábitos (Seus horários de pico programando)
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+
+          # 4. Dashboard do WakaTime Limpo
           plugin_wakatime: yes
-          plugin_wakatime_graphs: yes
-          plugin_wakatime_graphs_type: donut
-          plugin_wakatime_limit: 5
           plugin_wakatime_days: 7
-          plugin_wakatime_sections: time, languages, editors
+          plugin_wakatime_sections: time, projects
+          plugin_wakatime_limit: 4
 
-          # Salvando a imagem no lugar correto
           filename: cyberpunk-dashboard.svg
           committer_branch: output
