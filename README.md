@@ -31,8 +31,8 @@
 <h3 align="center">📊 Análise de Perfil e Contribuições</h3>
 
 <div align="center">
-  <!-- A imagem agora é responsiva e se adapta ao tamanho da tela -->
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
+  <!-- O "?v=turbo" no final FORÇA o GitHub a atualizar a imagem na sua tela -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
 </div>
 
 <div align="center">
