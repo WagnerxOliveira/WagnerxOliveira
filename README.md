@@ -20,7 +20,7 @@
 
 <h2 align="center">🚀 Tecnologias e Ferramentas</h2>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,python,react,mysql&perline=6" alt="Minhas Habilidades" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,mysql&perline=6" alt="Minhas Habilidades" />
 </div>
 
 <br/>
