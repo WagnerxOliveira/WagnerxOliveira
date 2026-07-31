@@ -25,12 +25,21 @@
 
 <br/>
 
-<h2 align="center">📊 Minhas Estatísticas e Contribuições</h2>
+<h2 align="center">📊 Análise de Perfil e Contribuições</h2>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true&v=cyberpunk1" alt="Estatísticas do GitHub" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=synthwave&locale=pt-br&hide_border=true&v=cyberpunk1" alt="Top Linguagens" />
+  <!-- Painel Esquerdo: Estatísticas principais otimizadas para carregamento instantâneo -->
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=synthwave&locale=pt-br&hide_border=true" alt="Estatísticas do GitHub" />
+  
+  <!-- Painel Direito: Streak Stats (Mostra a constância e gamifica o perfil) -->
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=WagnerxOliveira&theme=synthwave&hide_border=true&locale=pt_BR" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- Painel Inferior: Linguagens centralizadas complementando o design -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=synthwave&locale=pt-br&hide_border=true&v=estavel" alt="Top Linguagens" />
 </div>
 
 <br/>
