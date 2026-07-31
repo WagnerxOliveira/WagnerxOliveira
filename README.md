@@ -36,9 +36,11 @@
 <br/>
 
 <h2 align="center">⏱️ Tempo de Código e Produtividade (WakaTime)</h2>
+<div align="center">
+  <img src="wakatime.svg" alt="WakaTime Stats" />
+</div>
 
-<!--START_SECTION:wakatime-->
-<!--END_SECTION:wakatime-->
+<br/>
 
 <br/>
 
