@@ -7,15 +7,27 @@
 <div align="center">
   <h2>👨‍💻 System.out.println("Sobre Mim");</h2>
   <p>
-    Sou um Desenvolvedor apaixonado por arquitetar soluções, desde a criação de interfaces modernas e reativas (<b>Glassmorphism & UX/UI</b>) até a lógica de sistemas complexos. <br>
-    Estudante de Ciência da Computação (PUC Minas), movido pela curiosidade de entender como as coisas funcionam por baixo dos panos — seja no desenvolvimento web ou explorando estruturas de jogos clássicos.
+    Sou um Desenvolvedor FullStack e acadêmico de Ciência da Computação na PUC Minas. Minha paixão por tecnologia vai desde a arquitetura de interfaces modernas e reativas (<b>Glassmorphism & UX/UI</b>) até a lógica profunda de sistemas complexos. <br>
+    Movido pela curiosidade de entender como as coisas funcionam "por baixo dos panos", exploro desde o desenvolvimento web moderno até a engenharia reversa de estruturas de jogos clássicos de PS1, aliando visão de produto com fundamentos sólidos de computação.
   </p>
   
+  <p align="center">
+    <a href="https://www.linkedin.com/in/wagner-oliveira-8711083a8/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://wa.me/5535997202824" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+    </a>
+    <a href="mailto:wagneroliveira2395@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
+
   <table align="center">
     <tr>
       <td align="center">
-        🎯 <strong>Objetivo Atual: Estágio / Vaga Jr. em Desenvolvimento FullStack.</strong><br>
-        <i>Busco integrar um ecossistema tech dinâmico para entregar código limpo, otimizado e focado em resolver problemas reais, enquanto evoluo tecnicamente junto com a equipe.</i>
+        🎯 <strong>Objetivo Profissional</strong><br>
+        <i>Busco uma oportunidade (Estágio/Vaga Jr.) para integrar um ecossistema tech dinâmico. Meu foco é entregar código limpo, otimizado e resolver problemas reais, evoluindo tecnicamente e agregando valor ao time.</i>
       </td>
     </tr>
   </table>
@@ -38,7 +50,11 @@
       <h3>🃏 <a href="https://yu-gi-oh-forbidden-memories-psx.vercel.app/" target="_blank">Yu-Gi-Oh! Forbidden Memories</a></h3>
       <p>
         <b>Banco de Dados interativo para o clássico de PS1.</b><br>
-        Engenharia focada na extração e exibição de dados complexos. Conta com todas as 722 cartas, sistema de buscas instantâneas, filtros dinâmicos e painel holográfico de <i>drops</i> e <i>rates</i>. Desenvolvido com uma interface <i>Glassmorphism</i> imersiva.
+        Engenharia focada na extração e exibição de dados complexos. Conta com 722 cartas, sistema de buscas instantâneas, filtros dinâmicos e painel de <i>drops/rates</i>. Desenvolvido com interface <i>Glassmorphism</i>.
+      </p>
+      <!-- SUBSTITUA O LINK ABAIXO POR UM GIF DO SEU PROJETO RODANDO -->
+      <p align="center">
+        <img src="https://via.placeholder.com/400x200/161B22/00FFD1?text=Insira+GIF+Demo+Aqui" alt="GIF Demo Yu-Gi-Oh" width="100%" style="border-radius: 8px;" />
       </p>
       <p>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
@@ -54,7 +70,11 @@
       <h3>🔤 <a href="https://secret-word-mu-three.vercel.app/" target="_blank">Secret Word Game</a></h3>
       <p>
         <b>Jogo reativo de dedução e lógica.</b><br>
-        Aplicação focada em manipulação de estado complexo e renderização condicional. O jogo testa o vocabulário do usuário com geração dinâmica de palavras e uma interface que reage em tempo real aos inputs e tentativas do jogador.
+        Aplicação focada em manipulação de estado complexo e renderização condicional. O jogo testa o vocabulário com geração dinâmica de palavras e uma interface que reage em tempo real aos inputs.
+      </p>
+      <!-- SUBSTITUA O LINK ABAIXO POR UM GIF DO SEU PROJETO RODANDO -->
+      <p align="center">
+        <img src="https://via.placeholder.com/400x200/161B22/00FFD1?text=Insira+GIF+Demo+Aqui" alt="GIF Demo Secret Word" width="100%" style="border-radius: 8px;" />
       </p>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
@@ -71,74 +91,25 @@
 
 <br/>
 
-<h2 align="center">📊 Terminal de Contribuições & Analytics [Status: Online]</h2>
-
-<!-- 1. Cards de Resumo (Estilo vn7) -->
-<div align="center">
-  <h3>⚡ Visão Geral do Repositório</h3>
-  <!-- Caminhos Corrigidos: "card" no singular e apontando para a branch main -->
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" width="100%" />
-  <br/><br/>
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="49%" />
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="49%" />
-</div>
-
-<br/>
-
-<!-- 2. Gráfico 3D Inovador -->
-<div align="center">
-  <h3>🌌 Contribuições 3D & Radar de Produtividade</h3>
-  <picture>
-    <img alt="GitHub 3D Contributions" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/profile-3d-contrib/profile-night-view.svg" style="max-width: 100%;">
-  </picture>
-</div>
-
-<br/>
-
-<!-- 3. Hábitos, Wakatime Real-Time (AQUI APARECERÁ O REACT, CSS E % ) -->
-<div align="center">
-  <h3>🕒 Hábitos, Linguagens & WakaTime Real-Time</h3>
-  <!-- Caminho Corrigido: Apontando para a branch main -->
-  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; height: auto;" />
-</div>
-
-<br/>
-
-<!-- 4. Animação da Cobra (Esta continua na branch output) -->
-<div align="center">
-  <h3>🐍 Algoritmo de Contribuição</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg" style="max-width: 100%;">
-  </picture>
-</div>
+<h2 align="center">📊 Analytics & Atividade CI/CD</h2>
+<!-- Redução de Poluição: Apenas os dois gráficos mais impactantes lado a lado -->
+<table align="center" width="100%" style="border: none;">
+  <tr>
+    <td align="center" width="50%" valign="middle">
+      <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" width="100%" />
+    </td>
+    <td align="center" width="50%" valign="middle">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+        <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 <br/>
 <div align="center">
-  <p><em>Sistemas de monitoramento atualizados via automação YAML CI/CD ⚙️</em></p>
-</div>
-
-<br/>
-
-<h2 align="center">📫 Inicializar Conexão</h2>
-
-<p align="center">
-  <i>Pronto para transformar café e ideias em soluções reais. Vamos conversar?</i>
-</p>
-<p align="center">
-  <a href="https://www.linkedin.com/in/wagner-oliveira-8711083a8/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://wa.me/5535997202824" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
-  <a href="mailto:wagneroliveira2395@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
----
-<div align="center">
-  <em>Desenvolvido e codificado por <b>Wagner Oliveira</b> 👾</em>
+  <p><em>Automação gerida via GitHub Actions (YAML CI/CD) ⚙️</em><br>
+  Desenvolvido por <b>Wagner Oliveira</b> 👾</p>
 </div>
