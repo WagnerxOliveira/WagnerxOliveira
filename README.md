@@ -25,25 +25,24 @@
 
 <br/>
 
-<h2 align="center">📊 Minhas Estatísticas e Produtividade</h2>
+<h2 align="center">📊 Minhas Estatísticas e Contribuições</h2>
 
 <div align="center">
-  <p><em>Dados de atividade monitorados em tempo real</em></p>
-  <br/>
-  
-  <!-- Selos de Status Estáveis -->
-  <img src="https://img.shields.io/badge/GitHub-Perfil%20Ativo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Ativo" />
-  <img src="https://img.shields.io/badge/WakaTime-22m%20de%20Código-000000?style=for-the-badge&logo=wakatime&logoColor=white" alt="WakaTime Stats" />
+  <!-- Estatísticas Gerais do GitHub -->
+  <img src="https://github-readme-stats.vercel.app/api?username=WagnerxOliveira&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&locale=pt-br&hide_border=true" alt="Estatísticas do GitHub" />
   
   <br/><br/>
-  
-  <p><b>🚀 Linguagens e Ferramentas Principais (WakaTime):</b></p>
-  
-  <!-- Linguagens baseadas nos seus dados reais -->
-  <img src="https://img.shields.io/badge/JavaScript-88.79%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML-11.21%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/VS%20Code-Editor%20Principal-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Windows-Ambiente-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+
+  <!-- Top Linguagens -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WagnerxOliveira&layout=compact&theme=dracula&locale=pt-br&hide_border=true" alt="Top Linguagens" />
+</div>
+
+<br/>
+
+<h2 align="center">⏱️ Tempo de Código e Produtividade (WakaTime)</h2>
+<div align="center">
+  <!-- Gráfico dinâmico do WakaTime em tempo real -->
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=WagnerxOliveira&theme=dracula&layout=compact&hide_border=true&langs_count=6" alt="WakaTime Stats" />
 </div>
 
 <br/>
