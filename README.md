@@ -92,23 +92,23 @@
 <br/>
 
 <h2 align="center">📊 Analytics & Atividade CI/CD</h2>
-<!-- Redução de Poluição: Apenas os dois gráficos mais impactantes lado a lado -->
-<table align="center" width="100%" style="border: none;">
-  <tr>
-    <td align="center" width="50%" valign="middle">
-      <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" width="100%" />
-    </td>
-    <td align="center" width="50%" valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
-        <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
+
+<div align="center">
+  <!-- 1. Foco Principal: Métricas, Hard Skills e Atividade -->
+  <img src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/main/cyberpunk-dashboard.svg?v=turbo" alt="Cyberpunk GitHub Dashboard" style="max-width: 100%; border-radius: 8px;" />
+  
+  <br/><br/>
+  
+  <!-- 2. Prova de Consistência: Snake Animation ocupando a largura ideal -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/WagnerxOliveira/WagnerxOliveira/output/github-contribution-grid-snake.svg" style="max-width: 100%;">
+  </picture>
+</div>
 
 <br/>
+
 <div align="center">
   <p><em>Automação gerida via GitHub Actions (YAML CI/CD) ⚙️</em><br>
   Desenvolvido por <b>Wagner Oliveira</b> 👾</p>
